@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Buy a PC</title>
+
+<style>
+body{
+font-family: Arial;
+background:#f2f2f2;
+padding:40px;
+}
+
+.container{
+background:white;
+padding:25px;
+width:350px;
+margin:auto;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+input, select{
+width:100%;
+padding:10px;
+margin-top:10px;
+}
+
+button{
+margin-top:15px;
+padding:10px;
+width:100%;
+background:#0077ff;
+color:white;
+border:none;
+font-size:16px;
+cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+<h2>Buy a PC</h2>
+
+<form action="https://formsubmit.co/khatwani.n.a@nottinghamhigh.co.uk" method="POST">
+
+<input type="text" name="Full Name" placeholder="Full Name" required>
+
+<input type="email" name="Email" placeholder="Email Address" required>
+
+<input type="text" name="Address" placeholder="Delivery Address" required>
+
+<input type="text" name="City" placeholder="City" required>
+
+<input type="text" name="Postcode" placeholder="Postcode" required>
+
+<select name="PC Model" required>
+<option value="">Select PC</option>
+<option>Gaming PC</option>
+<option>Office PC</option>
+<option>Budget PC</option>
+</select>
+
+<input type="number" name="Quantity" placeholder="Quantity" required>
+
+<button type="submit">Order PC</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
